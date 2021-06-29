@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 
 using namespace std;
 using std::cout;
@@ -31,7 +31,7 @@ void main()
 	setlocale(LC_ALL, "Rus");
 	int n;
 	int mirror_n;
-	cout << "Ââåäèòå ðàçìåð ôèãóðû: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ñ„Ð¸Ð³ÑƒÑ€Ñ‹: "; cin >> n;
 	
 
 #ifdef TRIANGLE_1
@@ -55,7 +55,7 @@ void main()
 	}
 #endif // TRIANGLE_2
 #ifdef TRIANGLE_3
-	for (int i = 0; i < n; i++) //Ïîâòîðÿåò âûâîä ñòðîêè
+	for (int i = 0; i < n; i++) //ÐŸÐ¾Ð²Ñ‚Ð¾Ñ€ÑÐµÑ‚ Ð²Ñ‹Ð²Ð¾Ð´ ÑÑ‚Ñ€Ð¾ÐºÐ¸
 	{
 		for (int j = 0; j < i; j++)
 		{
@@ -113,7 +113,7 @@ void main()
 	}
 #endif // PLUS_MINUS
 #ifdef ASCII_CHESSBOARD
-	setlocale(LC_ALL, "C"); //Âîçâðàùàåò êîäèðîâêó ïî óìîë÷àíèþ
+	setlocale(LC_ALL, "C"); //Ð’Ð¾Ð·Ð²Ñ€Ð°Ñ‰Ð°ÐµÑ‚ ÐºÐ¾Ð´Ð¸Ñ€Ð¾Ð²ÐºÑƒ Ð¿Ð¾ ÑƒÐ¼Ð¾Ð»Ñ‡Ð°Ð½Ð¸ÑŽ
 //for (int i = 0; i < 256; i++)
 //{
 //	cout << i << "\t" << (char)i << endl;
